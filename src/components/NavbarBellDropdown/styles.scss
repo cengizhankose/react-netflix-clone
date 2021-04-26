@@ -1,0 +1,11 @@
+.NavbarBellDropdown {
+  .dropdown {
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: black;
+  }
+  &:hover > .dropdown {
+    display: block;
+  }
+}

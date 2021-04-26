@@ -1,0 +1,21 @@
+.NavbarUserDropdown {
+  .photoAndIcon {
+    display: flex;
+    align-items: center;
+
+    .userPhoto {
+      height: 2.3rem;
+      border-radius: 5px;
+      margin-right: 0.5rem;
+    }
+  }
+  .dropdown {
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: black;
+  }
+  &:hover > .dropdown {
+    display: block;
+  }
+}

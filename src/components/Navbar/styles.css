@@ -1,0 +1,60 @@
+nav {
+  background: black;
+  color: white;
+  padding: 1% 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .logo-navMenu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .logo-navMenu-container .logo {
+  width: 8%;
+  margin-right: 3rem;
+}
+
+nav .logo-navMenu-container .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+nav .logo-navMenu-container .navMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+nav .logo-navMenu-container .navMenu li {
+  margin-right: 1rem;
+}
+
+nav .icons-user-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .icons-user-container > * {
+  margin-left: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=styles.css.map */

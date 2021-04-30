@@ -1,0 +1,38 @@
+.shows-container {
+  color: white;
+  margin: 3vw 0 0 3vw;
+  overflow-x: hidden;
+}
+
+.shows-container .title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shows-container .title-container:hover > .title-arrow {
+  display: inline-block;
+}
+
+.shows-container .title-container .title {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.shows-container .title-container .title-arrow {
+  display: none;
+  margin: 0.5vh 0 0.5vh 0.5vh;
+}
+
+.shows-container .tv-show-image {
+  border-radius: 5px;
+  width: 15vw;
+  margin-right: 7px;
+}
+
+.shows-container .images-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=styles.css.map */

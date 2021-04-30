@@ -3,3 +3,42 @@
   padding: 0;
   display: border-box;
 }
+
+Banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.App {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 0),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1)
+  );
+}

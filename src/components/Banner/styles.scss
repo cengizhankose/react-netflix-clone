@@ -1,0 +1,70 @@
+.banner-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.content-container {
+  padding: 6vh 0 0 3vw;
+  color: white;
+  margin-bottom: 6vw;
+  .logo {
+    width: 35vw;
+    z-index: -1;
+  }
+  .title-container {
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    .title {
+      margin-left: 2vh;
+    }
+  }
+  .dsc {
+    font-size: 1.8rem;
+    width: 37vw;
+    margin-top: 2vh;
+  }
+  .btn-container {
+    margin-top: 2vh;
+    display: flex;
+    .btn {
+      border-radius: 4px;
+    }
+    .btn-play {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 9vw;
+      height: 6vh;
+      font-size: 1.5rem;
+      font-weight: bold;
+      background-color: #fff;
+      margin-right: 10px;
+      border: none;
+      &:hover {
+        background-color: #ffffff80;
+      }
+    }
+    .btn-info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 15vw;
+      height: 6vh;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: white;
+      background-color: #ffffff66;
+      border: none;
+      &:hover {
+        background-color: #ffffff33;
+      }
+      .btn-info-logo {
+        margin-right: 20px;
+      }
+    }
+  }
+}
